@@ -1,0 +1,24 @@
+.my-container{
+    position: fixed;
+    z-index: 1000;
+    bottom: 40px;
+    right: 40px;
+}
+.my-btn{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 7px;
+    background: linear-gradient(135deg, #56ffe0cc, #12d6b2cc);
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+}
+.stop{
+    background: linear-gradient(135deg, #fc7070cc, #f13242cc);
+}
+.my-btn:hover{
+    background: linear-gradient(135deg, #62cdff, #14abe7);
+}
