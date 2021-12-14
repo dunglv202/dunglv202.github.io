@@ -5,7 +5,7 @@
     right: 40px;
 }
 .my-btn{
-    padding: 10px 20px;
+    padding: 0.8rem 1.5rem;
     text-transform: uppercase;
     margin: 7px;
     background: linear-gradient(135deg, #56ffe0cc, #12d6b2cc);
@@ -14,6 +14,7 @@
     color: #fff;
     font-weight: 500;
     backdrop-filter: blur(3px);
+    font-size: 1.3rem;
     cursor: pointer;
 }
 .stop{
