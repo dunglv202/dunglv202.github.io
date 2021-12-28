@@ -1,0 +1,143 @@
+:root{
+    --bg-selection: rgba(136,253,197,0.8);
+}
+
+html{
+    color: rgba(55,65,81);
+}
+body{
+    padding: 1rem 20%;
+    background: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+*::selection{
+    background: var(--bg-selection);
+}
+.title{
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    border-bottom: solid 1px #ddd;
+}
+.desc{
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* == menu == */
+nav{
+    padding: 1.3rem 0;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 0 2rem;
+}
+nav .active a{
+    cursor:not-allowed;
+    font-weight: 500;
+}
+.header{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 1rem 0;
+    color: rgb(17,24,39)
+}
+h1{
+    color: rgb(17,24,39);
+}
+
+/* == main == */
+main{
+    padding: 1rem 2rem;
+}
+
+/* == subscribe == */
+.subcribe{
+    background: rgba(239,246,255,0.9);
+    border: solid 1px rgba(191,219,254,0.96);
+    border-radius: 4px;
+    padding: 1.5rem;
+}
+.subcribe h2{
+    margin: 0;
+    font-size: 1.2rem;
+}
+.form{
+    position: relative;
+}
+.subcribe .email{
+    width: 100%;
+    outline: none;
+    padding: 0.7rem 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: solid 2px transparent;
+}
+.subcribe .email:focus{
+    border-color: rgba(59,130,246,0.9);
+}
+.subcribe .email::placeholder{
+    color: rgb(185, 191, 197);
+}
+.subcribe .submit{
+    position: absolute;
+    padding: 0.5rem 2rem;
+    background: rgba(243,244,246,0.8);
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sec-desc{
+}
+.post-container{
+    margin-bottom: 2rem;
+}
+.post-title:hover{
+    color: #44cab4;
+}
+.post-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+.post-desc{
+    margin: 0;
+    color: rgb(107,114,128);
+    font-weight: 400;
+}
+.sec-doc{
+    margin-bottom: 3rem;
+}
+.doc-container{
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.doc-container:hover{
+}
+.doc-container a{
+    display: block;
+}
+.doc-container a:hover{
+    color: #44cab4;
+}
+
+@media screen and (max-width: 1111px) {
+    body{
+        padding: 1rem 10%;
+    }
+}
