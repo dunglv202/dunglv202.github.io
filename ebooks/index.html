@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="7; url='https://2zgwym-my.sharepoint.com/:f:/g/personal/dunglv202_2zgwym_onmicrosoft_com/EiF4wWXb6_RKlZlIMBCmId0BrsHo1x4pHp5MY5CA-ryImQ?e=qmjF97'" />
     <style>
       body{
         display: flex;
@@ -9,16 +8,36 @@
         justify-content: center;
         font-size: 4rem;
         color: #44cab2;
+        font-family: "segoe ui", "roboto", "ubuntu";
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
       }
       a{
-        animation: colorChange 2s;
-        background: -webkit-linear-gradient(#148cfc, #44cab2);
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
     </style>
   </head>
   <body>
-    <p>Please follow <a href="https://2zgwym-my.sharepoint.com/:f:/g/personal/dunglv202_2zgwym_onmicrosoft_com/EiF4wWXb6_RKlZlIMBCmId0BrsHo1x4pHp5MY5CA-ryImQ?e=qmjF97">Click to go...</a>.</p>
+    <div>
+      <a href="https://2zgwym-my.sharepoint.com/:f:/g/personal/dunglv202_2zgwym_onmicrosoft_com/EiF4wWXb6_RKlZlIMBCmId0BrsHo1x4pHp5MY5CA-ryImQ?e=qmjF97">Click to go...</a>
+    </div>
   </body>
 </html>
